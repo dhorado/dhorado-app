@@ -52,5 +52,8 @@
     "ipfs": "yarn build && ipfs-deploy build/",
     "start": "react-scripts start",
     "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }

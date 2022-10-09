@@ -1,7 +1,31 @@
 import styles from '../styles/leaderboard.module.css';
 import React from 'react';
+import leaderData from '../model/leaderboard.json'
+
+// Placeholder to convert Lens response to iterable array object
+function convertLensToJSON(obj) {
+    return obj;
+}
+
+// Dynamically generate table rows
+// Assumes rows are sorted already
+function generateRows(rows) {
+    return rows.map((row, i) => {
+        return (
+            <tr>
+                <td># {i+1}</td>
+                <td>{row.username}</td>
+                <td>{row.treasuresFound}</td>
+            </tr>
+        );
+    });
+}
 
 function Leaderboard() {
+    // Placeholder for API request to Lens
+    var sortedData = convertLensToJSON(leaderData.profiles).sort((a,b) => {
+        return (a.treasuresFound > b.treasuresFound ? -1 : 1);
+    });
 
     return (
         <div>
@@ -14,26 +38,7 @@ function Leaderboard() {
                             <th>User</th>
                             <th>Treasures captured</th>
                         </tr>
-                        <tr>
-                            <td>#1</td>
-                            <td>Hamza.lens</td>
-                            <td>34</td>
-                        </tr>
-                        <tr>
-                            <td>#2</td>
-                            <td>Anna.lens</td>
-                            <td>31</td>
-                        </tr>
-                        <tr>
-                            <td>#3</td>
-                            <td>Paulo.lens</td>
-                            <td>23</td>
-                        </tr>
-                        <tr>
-                            <td>#4</td>
-                            <td>Nick.lens</td>
-                            <td>22</td>
-                        </tr>
+                        {generateRows(sortedData)}
                     </tbody>
                 </table>
                 <a href="/#/hunt">

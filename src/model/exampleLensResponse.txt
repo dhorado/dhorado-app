@@ -1,0 +1,128 @@
+{
+  "data": {
+    "publications": {
+      "items": [
+        {
+          "__typename": "Post",
+          "id": "0x01-0x01",
+          "profile": {
+            "id": "0x01",
+            "name": "LensProtocol.eth 🌿",
+            "bio": "A permissionless, composable, & decentralized social graph that makes building a Web3 social platform easy.",
+            "attributes": [
+              {
+                "displayType": null,
+                "traitType": "string",
+                "key": "location",
+                "value": "Developer Garden"
+              },
+              {
+                "displayType": null,
+                "traitType": "string",
+                "key": "website",
+                "value": "https://lens.dev/"
+              },
+              {
+                "displayType": null,
+                "traitType": "string",
+                "key": "twitter",
+                "value": "lensprotocol"
+              },
+              {
+                "displayType": null,
+                "traitType": "boolean",
+                "key": "isBeta",
+                "value": "true"
+              },
+              {
+                "displayType": null,
+                "traitType": "string",
+                "key": "app",
+                "value": "Lenster"
+              }
+            ],
+            "isFollowedByMe": false,
+            "isFollowing": false,
+            "followNftAddress": "0x5832bE646A8a7A1A7a7843efD6B8165aC06e360D",
+            "metadata": "https://lens.infura-ipfs.io/ipfs/QmPZufGcsXtnV4VKLD3bnUPh8ovzKhQgtgeDYptc2rWHmZ",
+            "isDefault": false,
+            "handle": "lensprotocol.test",
+            "picture": {
+              "original": {
+                "url": "https://lens.infura-ipfs.io/ipfs/QmY9dUwYu67puaWBMxRKW98LPbXCznPwHUbhX5NeWnCJbX",
+                "mimeType": null
+              }
+            },
+            "coverPicture": {
+              "original": {
+                "url": "https://lens.infura-ipfs.io/ipfs/QmTFLSXdEQ6qsSzaXaCSNtiv6wA56qq87ytXJ182dXDQJS",
+                "mimeType": null
+              }
+            },
+            "ownedBy": "0x6C77a5a88C0AE712BAeABE12FeA81532060dcBf5",
+            "dispatcher": null,
+            "stats": {
+              "totalFollowers": 2411,
+              "totalFollowing": 0,
+              "totalPosts": 3,
+              "totalComments": 0,
+              "totalMirrors": 0,
+              "totalPublications": 3,
+              "totalCollects": 1532
+            },
+            "followModule": null
+          },
+          "stats": {
+            "totalAmountOfMirrors": 13,
+            "totalAmountOfCollects": 1532,
+            "totalAmountOfComments": 2772
+          },
+          "metadata": {
+            "name": "Gol del siglo",
+            "description": "This should be stored on-chain and showed to next generations.",
+            "content": "Gol del siglo\n\nThis should be stored on-chain and showed to next generations.",
+            "media": [
+              {
+                "original": {
+                  "url": "https://lens.infura-ipfs.io/ipfs/QmNMYMMBiMWbPUJKU6M2dRUScX4xniB99eKVRrtERqT96i",
+                  "mimeType": "video/mp4"
+                }
+              },
+              {
+                "original": {
+                  "url": "https://livepeercdn.com/asset/746b9zxagtln4u54/video",
+                  "mimeType": "video/mp4"
+                }
+              }
+            ],
+            "attributes": [
+              {
+                "displayType": "string",
+                "traitType": "Publication",
+                "value": "LenstubeVideo"
+              }
+            ]
+          },
+          "createdAt": "2022-06-09T13:08:13.000Z",
+          "collectModule": {
+            "__typename": "FreeCollectModuleSettings",
+            "type": "FreeCollectModule",
+            "followerOnly": true,
+            "contractAddress": "0x0BE6bD7092ee83D44a6eC1D949626FeE48caB30c"
+          },
+          "referenceModule": null,
+          "appId": "lenstube",
+          "hidden": false,
+          "reaction": null,
+          "mirrors": [],
+          "hasCollectedByMe": false
+        }
+      ],
+      "pageInfo": {
+        "prev": "{\"entityIdentifier\":\"0x01-0x01\",\"timestamp\":1654780093,\"cursorDirection\":\"BEFORE\"}",
+        "next": "{\"entityIdentifier\":\"0x01-0x01\",\"timestamp\":1654780093,\"cursorDirection\":\"AFTER\"}",
+        "totalCount": 1
+      }
+    }
+  }
+}
